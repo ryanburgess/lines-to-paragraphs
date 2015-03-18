@@ -1,10 +1,10 @@
 {
   "name": "lines-to-paragraphs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A JavaScript module that converts new lines to paragraph tags.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
   "repository": {
     "type": "git",
@@ -21,15 +21,15 @@
     "br",
     "tags"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "grunt": "^0.4.5",
     "grunt-contrib-jshint": "^0.10.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-jsonlint": "^1.0.4",
     "grunt-newer": "^1.1.0",
-    "jshint-stylish": "^1.0.0"
+    "jshint-stylish": "^1.0.0",
+    "tape": "^3.5.0"
   },
   "author": "Ryan Burgess @burgessdryan",
   "license": "MIT",
