@@ -1,4 +1,4 @@
-Lines to Paragraphs [![npm version](https://badge.fury.io/js/line-to-paragraph.svg)](http://badge.fury.io/js/lines-to-paragraph) [![Build Status](https://travis-ci.org/ryanburgess/lines-to-paragraphs.svg)](https://travis-ci.org/ryanburgess/lines-to-paragraphs)
+Lines to Paragraphs [![npm version](https://badge.fury.io/js/lines-to-paragraphs.svg)](http://badge.fury.io/js/lines-to-paragraphs) [![Build Status](https://travis-ci.org/ryanburgess/lines-to-paragraphs.svg)](https://travis-ci.org/ryanburgess/lines-to-paragraphs)
 =============
 A JavaScript module that converts new lines to paragraph tags.
 
@@ -9,10 +9,12 @@ npm install lines-to-paragraphs --save-dev
 ## Use
 ```js
 var paragraphs = require('lines-to-paragraphs');
+var content = 'Lorem ipsum\n\nTesting more content';
 
 paragraphs(content);
 ```
 ## Release History
+* 1.0.3: Update documentation.
 * 1.0.2: Add tests.
 * 1.0.0: Initial release.
  

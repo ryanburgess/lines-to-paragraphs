@@ -1,6 +1,6 @@
 {
   "name": "lines-to-paragraphs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A JavaScript module that converts new lines to paragraph tags.",
   "main": "index.js",
   "scripts": {
